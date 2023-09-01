@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="./images/Logo.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Blog</title>
+</head>
+<body><div class="lg:mx-16 md:mx-16 mx-5 my-10">
+
+    <h2 class="text-4xl font-bold">
+
+        Q1:Discuss the scope of var, let, and const.
+     </h2>
+     <p class="text-xl my-5 ">
+
+        In JavaScript, the scope of variables varies depending on how they are declared. Variables declared with var have function scope, which means they are accessible throughout the entire function where they are declared. However, they are also hoisted, so they are moved to the top of their function or global scope during compilation, potentially leading to unexpected behavior. On the other hand, both let and const have block scope, meaning they are confined to the block (e.g., if statement or loop) in which they are defined. This makes them more predictable and safer to use, especially within modern JavaScript. Additionally, let and const are hoisted but not initialized until they are declared in the code, ensuring that they can only be accessed after declaration. const specifically is used for variables that should not be reassigned, while let allows reassignment as needed.
+     </p>
+     <h2 class="text-4xl font-bold">
+
+        Q2: Tell us the use cases of null and undefined.
+     </h2>
+     <p class="text-xl my-5 ">Null is used to represent the intentional absence of any object value, often as a programmer's choice. It's a value you can assign to a variable to signify that it has no valid object or value at a given moment. undefined, on the other hand, typically indicates a variable that has been declared but hasn't been assigned any value yet or a missing function argument. It's usually an unintentional absence of a value.</p>
+     <h2 class="text-4xl font-bold">Q3: What do you mean by REST API?</h2>
+     <p class="text-xl my-5 ">A REST API (Representational State Transfer Application Programming Interface) is a set of rules for building web services. It uses standard HTTP methods (like GET, POST, PUT, DELETE) to allow communication and data exchange between clients (e.g., web or mobile apps) and servers via URLs. REST APIs are known for their simplicity and scalability, making them widely used in web development for data retrieval and manipulation.</p>
+
+</div>
+   
+</body>
+</html>
